@@ -1,0 +1,68 @@
+h1 {
+  text-align: center;
+  color: pink;
+}
+
+h2 {
+  text-align: center;
+  color: pink;
+  border: 1px solid pink;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+body {
+  background: lightcoral;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 13px;
+  margin: 20px 0 10px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background: pink;
+  color: white;
+  font-size: 18px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+}
+
+.learn-more {
+  color: blueviolet;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 60px;
+}
