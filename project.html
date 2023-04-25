@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meditation 🧘🏽‍♀️</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: pink;
+      }
+
+      h2 {
+        text-align: center;
+        color: pink;
+        border: 1px solid pink;
+        padding: 15px;
+        font-size: 18px;
+        border-radius: 4px;
+      }
+
+      body {
+        background: lightcoral;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        border-radius: 10px;
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: 13px;
+        margin: 20px 0 10px;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        background: pink;
+        color: white;
+        font-size: 18px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+
+      footer {
+        text-align: center;
+      }
+
+      .learn-more {
+        color: blueviolet;
+        text-decoration: none;
+        font-size: 12px;
+      }
+
+      .learn-more:hover {
+        text-decoration: underline;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Meditation has many health benefits</h1>
+      <h2>Particularly for stress relief</h2>
+      <img
+        src="https://i.insider.com/600af7c2c94799001992cc62?width=700"
+        max
+        width="50%"
+        alt="Woman meditating"
+      />
+      <p>
+        Meditation is a simple practice available to all, which can reduce
+        stress, increase calmness and clarity and promote happiness. Learning
+        how to meditate is straightforward, and the benefits can come quickly.
+        Here, we offer basic tips to get you started on a path toward greater
+        equanimity, acceptance and joy.
+      </p>
+      <br />
+      <a
+        href="https://www.nytimes.com/guides/well/how-to-meditate"
+        target="_blank"
+        class="learn more"
+      >
+        Learn more
+      </a>
+      <br />
+      <button>Explore meditation 🧘🏽‍♀️</button>
+      <footer>This page was built by Elle Aae 🌸</footer>
+    </div>
+    <script>
+      function explore() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+        let emoji = prompt("What is your favourite emoji?");
+
+        alert("Thank you " + name + "! We'll get in touch soon! " + emoji);
+      }
+      let button = document.querySelector("button");
+      button.addEventListener("click", explore);
+    </script>
+  </body>
+</html>
